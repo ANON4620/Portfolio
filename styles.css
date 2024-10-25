@@ -1,0 +1,329 @@
+@font-face {
+    font-family: Roboto-Regular;
+    src: url(assets/fonts/Roboto-Regular.ttf);
+}
+
+* {
+    margin: 0;
+    /* border: 1px solid red; */
+}
+
+body {
+    background-color: white;
+    color: #112233;
+    font-family: Roboto-Regular;
+    font-size: 20px;
+}
+
+.container {
+    height: 2000px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* NAVBAR */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: inherit;
+    padding: 20px 0;
+}
+
+nav h2 {
+    font-size: 24px;
+    margin-left: 50px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+
+nav ul {
+    font-size: 16px;
+    display: flex;
+    padding: 0;
+}
+
+nav ul li {
+    list-style: none;
+    margin-right: 50px;
+    display: flex;
+    align-items: center;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #112233;
+    padding: 20px 10px;
+}
+
+#dropdown-btn {
+    border: none;
+    background-color: inherit;
+    font-size: 16px;
+    padding: 20px 40px;
+}
+
+#dropdown-content {
+    display: none;
+    right: 0;
+    flex-direction: column;
+    background-color: white;
+    padding: 12px 30px;
+    align-items: flex-end;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    position: absolute;
+    z-index: 1;
+}
+
+#dropdown-content a {
+    width: 100%;
+    border-bottom: 1px solid gray;
+}
+
+#dropdown:hover #dropdown-content {
+    display: flex;
+}
+
+/* NAVBAR */
+
+/* HOME */
+
+#home {
+    display: flex;
+}
+
+#home .one img {
+    width: 400px;
+    margin: 50px 100px;
+}
+
+#home .two {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#home .two h1 {
+    font-size: 44px;
+    margin-bottom: 15px;
+}
+
+#home .two h2 {
+    font-size: 22px;
+    margin-bottom: 30px;
+}
+
+#home .two a {
+    color: white;
+    text-decoration: none;
+    background-color: #112233;
+    display: flex;
+    width: 120px;
+    font-size: 15px;
+    padding: 15px;
+    padding-left: 30px;
+}
+
+#home .two a img {
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+}
+
+/* HOME */
+
+/* ABOUT */
+
+#about {
+    background-color: #112233;
+    color: white;
+    padding: 150px 100px;
+}
+
+#about h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+/* ABOUT */
+
+/* EDUCATION */
+
+#education {
+    color: black;
+    background-image: url("assets/images/uem.jpeg");
+    background-size: cover;
+}
+
+#education h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+#education li {
+    margin: 20px;
+}
+
+#education p {
+    margin: 5px;
+}
+
+#education .blackbg {
+    padding: 100px;
+    background-color: rgba(255, 255, 255, 0.8)
+}
+
+/* EDUCATION */
+
+/* EXPERIENCE */
+
+#experience {
+    background-color: #112233;
+    color: white;
+    padding: 100px;
+}
+
+#experience h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+/* EXPERIENCE */
+
+/* PUBLICATIONS */
+
+#publications {
+    color: #112233;
+    background-color: inherit;
+    padding: 100px;
+}
+
+#publications h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+/* PUBLICATIONS */
+
+/* ACHIEVEMENTS */
+
+#achievements {
+    background-color: #112233;
+    color: white;
+    padding: 100px;
+}
+
+#achievements h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+/* ACHIEVEMENTS */
+
+/* PROJECTS */
+
+#projects {
+    color: #112233;
+    background-color: inherit;
+    padding: 100px;
+}
+
+#projects h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+/* PROJECTS */
+
+/* MEMBERSHIP */
+
+#membership {
+    background-color: #112233;
+    color: white;
+    padding: 100px;
+}
+
+#membership h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+/* MEMBERSHIP */
+
+/* RESEARCH */
+
+#research {
+    color: #112233;
+    background-color: inherit;
+    padding: 100px;
+}
+
+#research h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+/* RESEARCH */
+
+/* EVENTS */
+
+#events {
+    background-color: #112233;
+    color: white;
+    padding: 100px;
+}
+
+#events h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+/* EVENTS */
+
+/* PRESENTATION */
+
+#presentation {
+    color: #112233;
+    background-color: inherit;
+    padding: 100px;
+}
+
+#presentation h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+/* PRESENTATION */
+
+/* COURSES */
+
+/* CONTACT */
+
+#contact {
+    color: #001223;
+    background-color: inherit;
+    padding: 100px;
+}
+
+#contact h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+/* CONTACT */
+
+#courses {
+    background-color: #112233;
+    color: white;
+    padding: 100px;
+}
+
+#courses h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+/* COURSES */
+
